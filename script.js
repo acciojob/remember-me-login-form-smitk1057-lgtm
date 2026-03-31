@@ -1,4 +1,4 @@
- const form = document.getElementById("form");
+const form = document.getElementById("form");
   const username = document.getElementById("username");
   const password = document.getElementById("password");
   const checkbox = document.getElementById("checkbox");
@@ -24,7 +24,6 @@
     }
   });
 
-  
   existing.addEventListener("click", function () {
     const savedUser = localStorage.getItem("username");
     alert("Logged in as " + savedUser);
